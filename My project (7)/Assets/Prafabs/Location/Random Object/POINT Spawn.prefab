@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3996252558091275276
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4425552960448951736}
+  - component: {fileID: 3180422018420847238}
+  m_Layer: 6
+  m_Name: POINT Spawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 3306451490063965843, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4425552960448951736
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3996252558091275276}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 50.52, y: -0.78850126, z: -3.7177584}
+  m_LocalScale: {x: 5, y: 5, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3180422018420847238
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3996252558091275276}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0bf888de3cca2be458460f99a691f04b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objects:
+  - {fileID: 118721175139917123, guid: b03b69a080981f948913d630a36b60c5, type: 3}
+  - {fileID: 2403571248331854679, guid: 80f520f57f26b914ba1f87ce06c84151, type: 3}
+  - {fileID: 6252447591644838745, guid: 3c66f08871ed7934389cadd28a5128ba, type: 3}
+  - {fileID: 6562004147461828958, guid: 465a57e8dfa844148a191016f95a5691, type: 3}
+  - {fileID: 5640893341008091519, guid: 82b39d9ea80602e48ad02c90fa35caab, type: 3}
+  - {fileID: 5644913481685761400, guid: d18857baedac22e4f89262e30f31aa2e, type: 3}
+  - {fileID: 3008390137074494072, guid: be52afb477f738f469b55711048151f6, type: 3}
